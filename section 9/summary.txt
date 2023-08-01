@@ -1,0 +1,43 @@
+Flex
+
+1. Flex usage
+display: flex;
+
+2. flex direction
+flex-direction: row | row-reverse | column | column-reverse;
+
+3. flex basis
+flex-basis: <length> | auto;
+Note: flex-basis is horizontal length for row, vertical for column.
+
+4.flex order
+order: <integer>;
+Note: default is 0, negative value is allowed. higher vlues r placed right to smaller ones.
+
+5. flex wrap
+flex-wrap: nowrap | wrap | wrap-reverse;
+
+6. flex justify content
+justify-content: flex-start | flex-end | center | space-between | space-around;
+
+7. flex align items
+align-items: flex-start | flex-end | center | baseline | stretch;
+height: 70vh;
+vh is viewport height
+
+8. flex align self
+align-self: flex-start | flex-end | center | baseline | stretch;
+it is used to override align-items for individual items.
+
+9. flex align content
+align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+it is used to align items in multi-line flex container when flex-wrap is set to wrap.
+
+10. flex grow
+flex-grow: <number>;
+it is used to specify how much a flex item will grow relative to other items.
+
+11. flex shrink
+flex-shrink: <number>;
+it is used to specify how much a flex item will shrink relative to other items.
+

@@ -1,0 +1,51 @@
+1. Set text color by using
+   color: white;
+
+2. Set background color by using
+    background-color: black;
+
+3. Set font size by using
+    font-size: 20px;    (means 20 pixels)
+    font-size: 2em;     (means 2 times the default size)
+    font-size: 200%;    (means 200% of the default size)
+
+4. Set font family by using
+    font-family: "Times New Roman", Times, serif;
+
+5. Set font weight by using
+    font-weight: bold;
+
+6. Set font style by using
+    font-style: italic;
+
+7. Set text alignment by using
+    text-align: center;
+
+8. Set text decoration by using
+    text-decoration: underline;
+
+9. Set text transform by using
+    text-transform: uppercase;
+
+10. Set text indent by using
+    text-indent: 50px;
+
+-------------------------------------------------------------
+
+CSS Box Model
+1. Set width and height by using
+    width: 100px;
+    height: 100px;
+    it is the size of the content area
+
+2. Set padding by using
+    padding: 10px;
+    it is the space between the content area and the border
+
+3. Set border by using
+    border: 5px solid black;
+    it is the space between the padding and the margin
+
+4. Set margin by using
+    margin: 10px;
+    it is the space between the border and the next element

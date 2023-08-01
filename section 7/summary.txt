@@ -1,0 +1,36 @@
+1. Group
+h1,
+h2 {
+  color: blueviolet;
+}
+
+2. Child
+.box > p {
+  color: firebrick;
+}
+
+3. Descendent
+.box li {
+  color: blue;
+}
+
+4. Chained
+li.done {
+  color: green;
+}
+
+5. Multiple Combiners
+ul p.done {
+  font-size: 0.5rem;
+}
+
+----------------------------------------------------------
+CSS positioning
+
+position: static;    // default
+position: relative; // relative to itself
+position: absolute; // relative to parent
+position: fixed;   // relative to viewport
+position: sticky; // relative to parent until scroll
+
+

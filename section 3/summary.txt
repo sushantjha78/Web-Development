@@ -1,0 +1,25 @@
+lists
+    unordered - <ul>
+                    <li>item</li>
+                </ul>
+    ordered - <ol>
+                    <li>item</li>
+nesting lists
+    <ul>
+        <li>item1</li>
+        <ol start="5">item2
+            <li>item21</li>
+            <li>item22</li>
+        </ol>
+    </ul>
+
+Anchor elements
+    <a href="https://www.google.com">Google</a>
+    attribute = href
+    <a draggable="true" href="https://www.google.com">Google</a>
+    attribute = draggable
+
+Images
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    attribute = src
+    attribute = alt

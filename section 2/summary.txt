@@ -1,0 +1,5 @@
+heading - <h></h>
+paragraph - <p></p>
+void elements
+    break - <br />
+    horizontal rule - <hr />

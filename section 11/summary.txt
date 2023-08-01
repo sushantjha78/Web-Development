@@ -1,0 +1,51 @@
+Flexbox:
+For vertical centering you neeed to define the total vertical
+of the container/Flexbox
+example:
+        height: 100vh;
+        align-items: center;
+
+
+------------------------------------------------------------------
+CSS Bootstrap:
+
+steps:
+1. link bootstrap css file in the head section
+2. use bootstrap classes in the html elements
+
+adding breakpoints:
+1. add the class as "col-sm-6" in the html element to occupy 6 columns
+on a small screen i.e. 576px mobile screen
+
+adding dark mode:
+<html lang="en" data-bs-theme="dark">
+
+modern style seriff fonts:
+preferred for modern websites
+example: serif minion pro
+
+body of the site in sans-seriff font
+
+------------------------------------------------------------------
+portfolio website Features:
+A hero section that provides a brief introduction to you and your background.
+
+A resume page that lists your education, work experience, skills, and other relevant information (you can link to Capstone project 1).
+
+A section that showcases any projects or work that you have done in the past.
+
+An about me section that provides additional information about you and your interests.
+
+A contact me section that includes information for users to get in touch with you.
+
+
+
+Technical Requirements
+All HTML should be valid and follow proper semantic markup.
+
+All CSS should be valid and follow best practices for naming conventions and organization.
+
+The website should be responsive and work on different screen sizes and devices.
+
+All images used in the website should have appropriate alt text to be accessible.
+

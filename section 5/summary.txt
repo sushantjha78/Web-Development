@@ -1,0 +1,28 @@
+selectors:
+class
+    <.... class = "name">
+    and then in css:
+    .name{
+        <...>
+    }
+    class is not unique
+
+
+id
+    <.... id = "name">
+    and then in css:
+    #name{
+        <...>
+    }
+    id is unique
+
+
+attribute
+    <.... attribute = "name">
+    and then in css:
+    p[attribute = "name"]{
+        <...>
+    }
+    attribute is not unique
+    here p is a tag for all paragraphs
+

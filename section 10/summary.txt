@@ -1,0 +1,22 @@
+Flexbox vs Grid
+
+Flexbox is preferred for 1D layouts.
+Grid for 2D layouts.
+
+---------------------------------------------------
+Grid
+
+example:
+.grid-container {
+display: grid;
+grid-template-columns: auto 400px minmax(200px,500px);
+grid-template-rows: 1fr 1fr 2fr repeat(3,50px);
+}
+
+To span multiple rows:
+.book {
+    background-color: #e58331;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+

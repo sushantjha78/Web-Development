@@ -1,0 +1,29 @@
+CSS display
+1. Use `display: none` to hide an element.
+
+2. Use different display values like `block`, `inline`,
+    `inline-block` to change the layout of an element.
+
+Note: block elements take up the full width available, hence display
+    one below the other. inline elements take up only the space
+    required, hence display side by side.
+
+3. flot and clear are used to change the layout of elements.
+    Clear is used to clear a particular float direction. (left/right/both)
+
+---------------------------------------------------------------------------
+
+Responsive design methods
+1. Media queries
+2. Flexbox
+3. Grid
+4. Bootstrap
+
+---------------------------------------------------------------------------
+@media queries
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
