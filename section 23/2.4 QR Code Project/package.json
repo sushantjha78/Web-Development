@@ -1,0 +1,16 @@
+{
+  "name": "qr-code",
+  "version": "1.0.0",
+  "description": "Generate qr code for text urls",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sushant Jha",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "qr-image": "^3.2.0"
+  }
+}

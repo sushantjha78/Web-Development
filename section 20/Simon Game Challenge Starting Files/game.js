@@ -17,8 +17,8 @@ function display_game_over() {
 
 // play sound
 function play_color_sound(color) {
-  var audio = new Audio(color + ".mp3");
-  audio.play;
+  var audio = new Audio('./sounds/' + color + '.mp3');
+  audio.play();
 }
 
 // get user input
@@ -26,15 +26,16 @@ function user_input() {
   var btn_color = "";
   $(".btn").click(function (evt) {
     btn_color = evt.target.id;
+    alert(btn_color);
+    return btn_color;
   });
-  return btn_color;
 }
 
 // animate button press
 function animate_press(color) {
   play_color_sound(color);
   $("#" + color).addClass("pushed");
-  setTimeout(function () {}, 100);
+  setTimeout(function () {}, 1000);
   $("#" + color).removeClass("pushed");
 }
 
@@ -51,7 +52,7 @@ function game_over() {
 //start
 function start_game() {
   var colors = [];
-  $(".btn").keypress(function () {
+  $(document).keypress(function () {
     progress_levels(colors);
   });
 }
@@ -62,19 +63,21 @@ function progress_levels(colors) {
   colors.push(get_random_color());
 
   //display level
-  $("h1").display_level(colors.length);
+  $("h1").text(display_level(colors.length));
 
   //play the sound and push corresponding to the color
-  animate_press(colors[-1]);
-
-  // get user-clicked button
-  user_color = user_input();
-  animate_press(user_color);
+  animate_press(colors[colors.length-1]);
 
   //check if right color
   for (var i = 0; i < colors.length; i++) {
+    // get user-clicked button
+    user_color = user_input();
+    animate_press(user_color);
+
     if (colors[i] == user_color) {
-    } else {
+        // continue
+    }
+    else {
       game_over();
       return;
     }
@@ -82,7 +85,4 @@ function progress_levels(colors) {
   progress_levels(colors);
 }
 
-// new game after game
-while (true) {
-  start_game();
-}
+start_game();
